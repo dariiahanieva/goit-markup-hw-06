@@ -344,11 +344,10 @@ section {
 
 .team .text {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 30px;
 }
 
 .team-list-class {
@@ -701,6 +700,7 @@ section {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 40px;
 }
 
 .button-close {
@@ -723,4 +723,64 @@ section {
 .modal-close-icon {
   fill: var(--title-text-color);
   position: absolute;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(33, 33, 33, 1);
+}
+
+.form {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.form-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  margin-bottom: 10px;
+}
+.form-field input {
+  margin: 10;
+  width: 100%;
+  min-height: 40px;
+  padding: 11px 12px;
+  padding-left: 42px;
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ;
+}
+.form-label {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
+}
+
+textarea {
+  width: 448px;
+  height: 120px;
+  padding: 11px 12px;
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+}
+
+.form-field::placeholder {
+  color: rgba(117, 117, 117, 0.5);
 }
