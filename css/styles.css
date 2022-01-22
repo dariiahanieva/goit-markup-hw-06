@@ -533,6 +533,7 @@ section {
 
 .mail-footer-input {
   margin-right: 10px;
+  padding-left: 16px;
   height: 50px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -864,6 +865,7 @@ textarea {
   display: inline-flex;
   text-align: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .check-link {
@@ -892,4 +894,5 @@ textarea {
   background-size: cover;
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
